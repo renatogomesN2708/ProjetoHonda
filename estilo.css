@@ -9,6 +9,9 @@ header {
     display: flex;
     background-color: #303030;;
 }
+#box1 {
+    margin-left: 10em;
+}
 #box1 p {
     display: flex;
     height: 88px;
@@ -37,7 +40,7 @@ header {
     height: 604px;
 
     margin-top: -30.2em;
-    margin-left: 50em;
+    margin-left: 70em;
 
     background: rgba(77, 188, 233, 0.75);
     border-radius: 15px;
@@ -98,7 +101,7 @@ header {
 }
 .setas {
     display: flex;
-    margin-left: 67em;
+    margin-left: 86.5em;
 }
 #setas {
     display: flex;
@@ -174,7 +177,7 @@ header {
     width: 341px;
     height: 75px;
 
-    margin-left: 23em;
+    margin-left: 31.5em;
     margin-top: 8em;
     margin-bottom: 5em;
 
@@ -211,7 +214,7 @@ header {
     display: none;
     justify-content: center;
 
-    margin-left: 3em;
+    margin-left: 14em;
     margin-top: -70em;
     
 }
