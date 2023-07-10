@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+<section>
+    <header>
+        <img src="img/logo.svg" alt="">
+        <img src="img/byeCar.svg" alt="">
+    </header>
+    <main id="box1">
+        <p>Ter uma moto por assinatura<br>
+            nunca foi tão fácil!</p>
+        <article>
+            <img id="img1" src="img/image 9.png" alt="">
+        </article>
+    </main>
+    <main id="box2">
+        <p id="leterBegin">Conheça nossas<span>motos!</span></p>
+        <p id="ScooterWhiteLetra">Scooter Elétrica Voltz EV1</p>
+        <article>
+            <img id="schotter" src="img/schotter.svg" alt="">
+            <img id="cb500" style="display: none;" src="img/hondacb500.svg" alt="">
+        </article>
+        <p id="aPartir">A partir de</p>
+        <button id="valor">R$ 619,90</button>
+        <p id="plane">Planos de até 30 meses</p>
+    </main>
+    <div id="setas">
+        <img id="setaEsq" class="setas" src="img/setaEsq.svg" alt="voltar" onclick="esquerda()">
+        <img id="setaDir" class="setas" src="img/setaDir.svg" alt="passar" onclick="direita()">
+    </div>
+    
+    <section id="saiba">
+        <button class="Saibamais" onclick="saibaMais()">Saiba mais</button>
+    </section>
+    <main id="box3">
+        <article>
+            <img id="esc" src="img/x.svg" alt="botão de saida" onclick="sair()">
+        </article>
+        <p id="hcb">Honda CB 500X</p>
+        <p id="descript">
+            O câmbio de 6 marchas da CB 500X oferece maior confiança e<br>
+            performance na pilotagem, tornando as subidas de marcha mais<br>
+            leves e as reduções mais suaves!
+        </p>
+        <article>
+            <img id="box3Cb" src="img/hondacb500.svg" alt="">
+        </article>
+        <section>
+            <button id="btnBox3" onclick="queroAssinar()">Quero Assinar!</button>
+        </section>
+    </main>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
